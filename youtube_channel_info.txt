@@ -1,26 +1,6 @@
 ~~ DO NOT EDIT THE FIRST 2 LINES	
 	~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 	
-Ekattor TV Live | Bangla | https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Ekattor_TV_logo.svg/190px-Ekattor_TV_logo.svg.png |
-https://www.youtube.com/channel/UC0ThmWmb7WQATrrDMLQph7Q/live
-
-Gazi TV Live | Bangla | https://upload.wikimedia.org/wikipedia/en/thumb/2/20/GTVBangladeshLogo.png/220px-GTVBangladeshLogo.png |
-https://www.youtube.com/channel/UCXuHIkEezOy_b1pnkN0-TIg/live
-
-DBC NEWS | Bangla | https://upload.wikimedia.org/wikipedia/commons/9/9f/DBC_News_logo.png |
-https://youtube.com/@DBCNEWSTV/live
-
-Somoy TV | Bangla | https://upload.wikimedia.org/wikipedia/en/d/d7/Somoy_TV_logo.png | 
-https://youtube.com/@somoynews360/live
-
-Jamuna TV | Bangla | https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png | 
-https://youtube.com/@JamunaTVbd/live
-
-News18 Bangla | Bangla | https://upload.wikimedia.org/wikipedia/commons/6/67/News18_Bangla_logo.jpeg | 
-https://youtube.com/@News18Bangla/live
-
-Rabitholebd | Bangla | https://m.youtube.com/@RabbitholebdSports/live
-
 NDTV 24*7 | English | https://i.imgur.com/pMHfT2n.png | 
 https://www.youtube.com/channel/UCZFMm1mMw0F81Z37aaEzTUA/live
 
@@ -36,12 +16,6 @@ https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg/live
 WION | English | https://i.imgur.com/3PH7frA.jpg | 
 https://www.youtube.com/channel/UC_gUM8rL-Lrg6O3adPW9K1g/live
 
-CGTN Europe | English | https://i.imgur.com/3IjszqF.jpg |
-https://www.youtube.com/channel/UCj0TppyxzQWm9JbMg3CP8Rg/live
-
-FRANCE 24 English | English | https://i.imgur.com/1NHCrPM.png | 
-https://www.youtube.com/channel/UCQfwfsi5VrQ8yKZ-UWmAEFg/live
-
 ABC News | English | https://i.imgur.com/sxEPMKY.png |
 https://www.youtube.com/channel/UCBi2mrWuNuyYy4gbM6fU18Q/live
 
@@ -54,53 +28,11 @@ https://www.youtube.com/user/AlJazeeraEnglish/live
 CNA  | English | https://i.imgur.com/vMht7AD.png |
 https://www.youtube.com/channel/UC83jt4dlz1Gjl58fzQrrKZg/live
 
-WPLG Local 10 | English | https://i.imgur.com/tELaG63.png |
-https://www.youtube.com/channel/UCgVZ0mrM3liHNhRYC5Mchgg/live
-
-News 12 New York | English | https://i.imgur.com/mOlz491.png |
-https://www.youtube.com/channel/UCFhbonoFqxg2b9FMRzYAwog/live
-
-United Nations | English | https://i.imgur.com/O7h85EX.jpg |
-https://www.youtube.com/channel/UC5O114-PQNYkurlTg6hekZw/live
-
-Channels Television | English | https://i.imgur.com/cEiNnvA.jpg |
-https://www.youtube.com/channel/UCEXGDNclvmg6RW0vipJYsTQ/live
-
-GBNews | English | https://i.imgur.com/8wwqVHU.jpg |
-https://www.youtube.com/channel/UC0vn8ISa4LKMunLbzaXLnOQ/live
-
-LiveNOW from FOX | English | https://i.imgur.com/s3JUNqT.jpg |
-https://www.youtube.com/channel/UCJg9wBPyKMNA5sRDnvzmkdg/live
-
-ABC News (Australia) | English | https://i.imgur.com/8OCSD9V.png |
-https://www.youtube.com/channel/UCVgO39Bk5sMo66-6o6Spn6Q/live
-
-ANews | English | https://i.imgur.com/y5kZk6K.png | 
-https://www.youtube.com/channel/UC-LRBEUet4xX2fRB3JitFxg/live
-
-Sky News | English | https://i.imgur.com/ORMjgBC.png |
-https://www.youtube.com/watch?v=9Auq9mYxFEE/live
-
-Newsmax TV | English | https://i.imgur.com/KKoPfER.gif |
-https://www.youtube.com/channel/UCx6h-dWzJ5NpAlja1YsApdg/live
-
-NBC News | English | https://i.imgur.com/yDTnnhV.jpg | 
-https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live
-
-africanews | English | https://i.imgur.com/XYPqCwe.png |
-https://www.youtube.com/channel/UC1_E8NeF5QHY2dtdLRBCCLA/live
-
-TeleSUR English | English | https://i.imgur.com/eHxuTsb.png |
-https://www.youtube.com/channel/UCmuTmpLY35O3csvhyA6vrkg/live
-
 NewsX | English | https://i.imgur.com/UmeRC9Z.png |
 https://www.youtube.com/channel/UCytSP0M0Jdnw6qIy3Y-nTig/live
 
 MIRROR NOW | English | https://i.imgur.com/bbKSwzq.gif |
 https://www.youtube.com/channel/UCWCEYVwSqr7Epo6sSCfUgiw/live
-
-NHK WORLD-JAPAN | English | https://i.imgur.com/UOtXmnA.png |
-https://www.youtube.com/channel/UCSPEjw8F2nQDtmUKPFNF7_A/live
 
 Yahoo Finance | English | https://i.imgur.com/eXepXQC.png |
 https://www.youtube.com/c/YahooFinance/live
@@ -159,6 +91,9 @@ https://www.youtube.com/watch?v=5aglJRVC9ts/live
 Disney Junior | Kids | https://i.imgur.com/zuMiEE4.jpg |
 https://www.youtube.com/watch?v=YhxQKPULXAQ/live
 
+PBS KIDS | Kids | |
+https://www.youtube.com/c/PBSKIDS/live
+
 PJ Masks Official | Kids | https://i.imgur.com/F95Xf1M.png |
 https://www.youtube.com/channel/UCY2jUnU118sVkdj2xafiJ0g/live
 
@@ -200,3 +135,174 @@ https://www.youtube.com/channel/UC0Um3pnZ2WGBEeoA3BX2sKw/live
 
 BOL News | Urudu | https://i.imgur.com/S7x9XkM.jpg |
 https://www.youtube.com/channel/UCz2yxQJZgiB_5elTzqV7FiQ/live
+
+Art of Melodic Techno & House Radio | Radio | |
+https://www.youtube.com/watch?v=mj6O42HRPLA    
+
+Anjunadeep Radio - Deep House, Chill, House, Progressive | Radio | |
+https://www.youtube.com/watch?v=D4MdHQOILdw    
+
+Anjunadeep Radio - Trance and Progressive | Radio | |
+https://www.youtube.com/watch?v=IvuwTft-0cM    
+
+Deep House Radio | Radio | |
+https://www.youtube.com/watch?v=5qky3L2Q6G4    
+
+Radio Pop Mix | Radio | |
+https://www.youtube.com/watch?v=cNwyxIQ8-5U    
+
+Eirewave Radio Pop Rock Music | Radio | |
+https://www.youtube.com/watch?v=NU4v5rqtZbo    
+
+Uplifting Trance Radio | Radio | |
+https://www.youtube.com/watch?v=WYetg3AuLE4    
+
+Euphoric & Uplifting Trance Radio | Radio | |
+https://www.youtube.com/watch?v=A5sUa0bNRj8    
+
+Vocal Trance Radio | Radio | |
+https://www.youtube.com/watch?v=DPXQG8S9Xwc    
+
+Chill Radio | Radio | |
+https://www.youtube.com/watch?v=21qNxnCS8WU
+
+City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Electro Remix 2021 | Music | |
+https://www.youtube.com/watch?v=2P2AGaDbmXQ
+
+City Gym - Alan Walker & Marshmello Mix 2021 - Electro Remix 2021 | Music | |
+https://www.youtube.com/watch?v=smHHrvzneho
+
+City Gym - Alok, Alan Walker, Dimitri Vegas & Like Mike - Tomorrowland 2021 | Music | |
+https://www.youtube.com/watch?v=freuiC0nuKQ
+
+The Good Life Radio - Best Relax House, Chillout, Study, Running, Gym, Happy Music | Music | |
+https://www.youtube.com/watch?v=36YnV9STBqc
+
+Summer Music Deep - Best Relax House, Chillout, Study, Running, Happy Music | Music | |
+https://www.youtube.com/watch?v=Jn1XFCCvSrg
+
+Deep House Radio - Vocal Deep House, Slap House, Summer Chill House, Car Music | Music | |
+https://www.youtube.com/watch?v=b3FORGBsmNA
+
+Tropical House Radio - Best Relax House, Chillout, Study, Running, Happy Music | Music | |
+https://www.youtube.com/watch?v=c8Qna53v1os
+
+xDeep - Ibiza Summer Mix 2021 :strawberry: Best Of Tropical Deep House Music Chill Out Mix 2021 | Music | |
+https://www.youtube.com/watch?v=KdK3Pq_ynjc
+
+Haa Taa Deep - Avicii, Jonas Blue, Kygo Alok, Robin Schulz - Chillout Lounge | Music | |
+https://www.youtube.com/watch?v=p__mpSB_RXY
+
+Queen Club - SUMMER MIX 2021 ↠ DUBAI, HAWAII, THAILAND, MYKONOS, ISLANDS, :palm_tree: Feeling Me  | Music | |
+https://www.youtube.com/watch?v=-sqGKN1Oi3M
+
+Café del Mar Chill House Radio (Deep House · Organic House · Nu Disco) | Music | |
+https://www.youtube.com/watch?v=Q7OlTDRpKng
+
+HQ - Bass Music :speaker:CAR BASS MUSIC 2021 :fire: BEST EDM, BOUNCE, ELECTRO HOUSE 2021 | Music | |
+https://www.youtube.com/watch?v=FM6MKgVcfyo
+
+A State Of Trance Radio @A State Of Trance | Music | |
+https://www.youtube.com/watch?v=5lMmnfVylEE
+
+SunMusic - NEW PARTY MIX 2021 :boom:TOMORROWLAND 2021 | Music | |
+https://www.youtube.com/watch?v=3QXIXYEBH4c
+
+SunMusic - :boom:TOMORROWLAND 2021 | Music | |
+https://www.youtube.com/watch?v=16EbWxsG9ao
+
+Tomorrowland - One World Radio | Music | |
+https://www.youtube.com/watch?v=DY_rFed96mg
+
+N&T Party - HOT EDM Party Dance Club Remix 2021 ♫ Best Shuffle Dance Music Video ♫ New Shuffle Dance 2021 | Music | |
+https://www.youtube.com/watch?v=riQUWTQffaw
+
+N&T Party - Party Dance Club Remix 2021 ♫ Best Shuffle Dance Party Video Mix ♫ New EDM Dance Charts Songs | Music | |
+https://www.youtube.com/watch?v=lIzqiD0x0Xo
+
+Late Night Lounge - Chillout House Background Music - Study, Work, Deep Focus, Relax, Car Music | Music | |
+https://www.youtube.com/watch?v=QBjYQhhmzO8
+
+ChillYourMind - Chillout Music, Summer Music, Chill House, Deep House, Summer Mix 2021 | Music | |
+https://www.youtube.com/watch?v=DquKMopzJEY
+
+Bossa Nova Covers Popular Songs | Music | |
+https://www.youtube.com/watch?v=eHmrhzvWPek
+
+Beautiful Relaxing Music, Peaceful Soothing Instrumental Music, "Tropical Birds" By Tim Janis | Music | |
+https://www.youtube.com/watch?v=U-sPrE84G0A
+
+Beautiful Relaxing Music Combined With Beautiful 4K Quality • Relax, Sleep, Meditation, Study, Yoga | Music | |
+https://www.youtube.com/watch?v=HMnatoiMdjA
+
+4K Video (Ultra HD) Unbelievable Beauty - Amazing Nature Scenery with Beautiful Relaxing Music | Music | |
+https://www.youtube.com/watch?v=_nFMeEv0bk8
+
+LOFI MUSIC LIVE 24/7 | LOFI | https://yt3.ggpht.com/ytc/AAUvwnhGIymQGp3jRMECbTCBSRAUqi8sKbATpWowQG44CA=s48-c-k-c0x00ffffff-no-rj |
+https://www.youtube.com/watch?v=5qap5aO4i9A
+
+Molek FM live | Radio Stations | |
+https://www.youtube.com/channel/UCkmwGg4oN_Ik4QBx8SqCYJA/live
+
+Microsoft | Educational | |
+https://www.youtube.com/channel/UCFtEEv80fQVKkD4h1PF-Xqw/live
+
+Microsoft Developer | Educational | |
+https://www.youtube.com/channel/UCsMica-v34Irf9KVTh6xx-g/live
+
+Microsoft Developer | Educational | |
+https://www.youtube.com/c/MicrosoftDeveloper/live
+
+Windows Developer | Educational | |
+https://www.youtube.com/channel/UCzLbHrU7U3cUDNQWWAqjceA/live
+
+Windows | Educational | |
+https://www.youtube.com/channel/UCVGOyzms_XJNk_DHqrffXCw/live
+
+edureka | Educational | |
+https://www.youtube.com/channel/UCkw4JCwteGrDHIsyIIKo4tQ/live
+
+GitHub | Educational | |
+https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ/live
+
+Hindi Pod101 | Educational | |
+https://www.youtube.com/channel/UCQjj7y-JGGj12vwhIbuz62Q/live
+
+JEE Math Rankers | Educational | |
+https://www.youtube.com/channel/UCBZGE2wdqCuXPLQoy_Yd4fg/live
+
+Geeks for Geeks | Educational | |
+https://www.youtube.com/c/GeeksforGeeksVideos/live
+
+English Speeches | English | |
+https://www.youtube.com/c/EnglishSpeeches/live
+
+Chill Music Lab | English | |
+https://www.youtube.com/channel/UCwVQIkAtyZzQSA-OY1rsGig/live
+
+Explore Oceans | English | |
+https://www.youtube.com/c/ExploreOceans/live
+
+Explore Oceans | English | |
+https://www.youtube.com/channel/UCSyg9cb3Iq-NtlbxqNB9wGw/live
+
+Sadhguru | Hindi | |
+https://www.youtube.com/c/sadhguru/live
+
+Dabangg TV | Hindi | |
+https://www.youtube.com/c/moochkurao/live
+
+Mastiii | Hindi | |
+https://www.youtube.com/channel/UCtgl-w7Xc3CWTQ6WQYxqbKg/live
+
+Mastiii | Hindi | |
+https://www.youtube.com/c/mastiiitv/live
+
+Shemaroo Comedy | Hindi | |
+https://www.youtube.com/channel/UC0PKLLmL8pIJLjOI1gBH_pA/live
+
+Shemaroo Comedy | Hindi | |
+https://www.youtube.com/user/indiancomedy/live
+
+Hindi AR Entertainments | Hindi | |
+https://www.youtube.com/channel/UCF_xLQFSgkdQ3hcsSy9F3Zw/live
