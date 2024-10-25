@@ -51,7 +51,7 @@ https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/5J8K7qd.png" tvg-id="", DD NEWS 24X7
-https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1729909420/ei/TP4bZ8nnIeeosfIPrp6v-Ao/ip/52.234.40.28/id/llE9XzYrYBs.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/qtApAcXtHqmiagESy8wTsCyQaWmxC4Nf4nHrSMr44B7ytFewTlccoREmiqhjA7s/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51307727%2C51312688%2C51326931/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhANHFTwk3AODYEHLcwxGoEiaf9Ye4wqsV8M6pA4mE63caAiBFZnl23rnP0uePSYpqDybwiM6dJMBJ08Asi8Xlafwjsw%3D%3D/file/index.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/cIDHsge.jpg" tvg-id="", CNBC Awaaz
 https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
@@ -123,7 +123,7 @@ https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 
 #EXTINF:-1 group-title="Kids" tvg-logo="https://i.imgur.com/sDGYwUo.jpg" tvg-id="", Booba – Cartoon for Kids
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1729902559/ei/f-MbZ5j5EoeJkucP7ffAkQ4/ip/20.161.61.226/id/ZyRK2oIENH8.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/qtApASErKhdWe8X1Fhqk2LR4FcwCDPJsbQi-wX5a4e2wX37rBexUr7ZDDM5Fe8Y/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51312688%2C51326338%2C51326932/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgMj0W4Q-bwPZaf7CgPqfY0sghKiQAsVlscCsKCBWiH9YCICLkSz157SBvlBDDFdQkn0-r3DvkmwrJQ-EXO8_wG6Qv/file/index.m3u8
+https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 
 #EXTINF:-1 group-title="Kids" tvg-logo="https://i.imgur.com/LS9HqXf.png" tvg-id="", Thomas & Friends
 https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
