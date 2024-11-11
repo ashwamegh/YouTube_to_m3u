@@ -60,7 +60,7 @@ https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/xWg3Tfn.png" tvg-id="", IndiaTV
-https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1731310918/ei/5mAxZ5bVKJ7pybgPreOlGQ/ip/172.183.146.91/id/xKpqN01kzXk.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/qtApAb8C8obVpgVM1CCoOncxSrnAHhmIwNSjKJf_DxqQxfK8QN87Voiwb_z-2ck/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51312688%2C51326932/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgbbVRrNM4L42Hm3u72qFYH9dGVgKE8_Wg6JTC5tXlM2oCIQC_Ve88jHdY4MSAQkOAFypSz1mPd4E2uDjJIxv6wH9fqQ%3D%3D/file/index.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/VwzlPXa.jpg" tvg-id="", Republic Bharat
 https://raw.githubusercontent.com/naveenland4/useryahya/main/assets/info.m3u8
