@@ -1,16 +1,16 @@
 #EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml.gz"
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/pMHfT2n.png" tvg-id="", NDTV 24*7
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1736302926/ei/7ox9Z5jGAeiGkucP2pzQyA0/ip/74.249.22.154/id/cSI8QkJK8lw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51340226/txs/51340226%2C51340657/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/bui/AfMhrI9vQLneLSC5RlZHg3UOWjbTIgfyEduY1sR_-D9a-_gj33TXMrryJJSvB5BcchQERbt3fMVqZj1Z/spc/x-caUE6wq_B0n2PwWObiLxxKDdNDNjCtdEzssjS8eo7cFdcPxaLiTooppzE_KR_R8C9XzzM/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51353498%2C51355912%2C51371294/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgCZ7-Uq5lXI4ZxyLkFDXMXuKFBJ1mue1xluoXdUOZsTgCIQDydXd4NUaqyfiifNWVN3CFHqthlnilvAvMXjhg0fK8ww%3D%3D/file/index.m3u8
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" tvg-id="", NASA TV
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1736302926/ei/7ox9Z7boK_WHkucP7fz5gAY/ip/74.249.22.154/id/OCem0E-0Q6Y.82/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51340226/txs/51340226%2C51340657/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/bui/AfMhrI_GoFk8P-oldkDUdo7w_jFugFCvf5ervW9geH4Ou4Gsi_5zfvyYtLTxUWVEh-0abcaYopxjaBfR/spc/x-caUF-sTd_l09AH_wNxkmEYpFlykFQsVzf61xoERGVP2xl9zSD-taUqAS4QHJc/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51353498%2C51355912%2C51371294/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgNS-s1SXdWOQOxJJtVxQSXJhfCFps7UJrVAy6Q_idXRICIQCzngk9NI11wPP_ndxSs4I6tTzJ-P1BI03xrFsD2pdstA%3D%3D/file/index.m3u8
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/XZKXViS.png" tvg-id="", Republic World
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/mO7gA6S.png" tvg-id="", DW News
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1736302929/ei/8Yx9Z47jBsu3kucPoaXCgQY/ip/74.249.22.154/id/tZT2MCYu6Zw.34/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/x-caUEt10zrt26m3GtrvCmsD0xLAYKSO00l8Eilg2Zap6saIlhjQUkq-2EP9At-yiNH9gJE/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51355912%2C51371294/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAP6XbdtaVT5chQimzuZjs39qLJu9fYppkMEkp2Kfk5zEAiEAldL78-68qutVRqHF_N_BzjiXoXe-gJAMd_jQVvQCUkA%3D/file/index.m3u8
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/3PH7frA.jpg" tvg-id="", WION
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
@@ -22,7 +22,7 @@ https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/sXq5pev.png" tvg-id="", Al Jazeera English
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1736302933/ei/9Yx9Z8f5E_qAkucPyc6wiQ8/ip/74.249.22.154/id/gCNeDWCI0vo.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51340226/txs/51340226%2C51340657/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/bui/AfMhrI91G1mbItit7wsqS9wKbEhYxftplDa3n4g4CuynYy7GB9W2gNCgOlhGS2kJ3lQmREvpGxYiCp_-/spc/x-caUKiBuVfxRJPpLIkja5mnW7hzSjPqyJdvhhl0bImgpp1orJQ7wLnC_R-yHFw/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51353498%2C51355912%2C51371294/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhALNg9OfEihrSibKcs9GPITcwO43N_XfRhCPyrWeG_yd5AiBzhnp_y4d9Xl79-9OPTZ3TGtmNIa-48bU1ztgjiuWKng%3D%3D/file/index.m3u8
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/vMht7AD.png" tvg-id="", CNA
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
@@ -34,7 +34,7 @@ https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="English" tvg-logo="https://i.imgur.com/eXepXQC.png" tvg-id="", Yahoo Finance
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1736302938/ei/-ox9Z7W-D_S0kucP9OqwgA8/ip/74.249.22.154/id/KQp-e_XQnDE.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/ss/1/spc/x-caUMqFDx3THLxMpFZuPtUA3ScEuNH43hARHXRDwFS0dlcyZ_2kPEiLUd1LUuueRdaCBWU/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/fexp/51326932%2C51335594%2C51355912%2C51371294/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Css%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIhAO7e9QlGYxwUhdFjwbKA9JJ5ebUKDPl9oNOe_ojWVoL1AiBFHx6ZH0RSk5Inaa9Dcfl5byjOM7xf0kaGFRWm3F45pw%3D%3D/file/index.m3u8
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/5J8K7qd.png" tvg-id="", DD NEWS 24X7
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
