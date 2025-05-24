@@ -49,13 +49,13 @@ https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/VwzlPXa.jpg" tvg-id="", Republic Bharat
-https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1748133026/ei/QhAyaMe0BKPpybgPyMWGgAg/ip/172.214.175.255/id/LS7LQIl0PI0.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/ss/1/ssa/1/bui/AecWEAZWqbaEmQV2K9jWSYvMi0dBvKqKAMP2EmX5nUPF1dd15WBdNHpU2KMalIu4V1ichrihwy1rxxkb/spc/wk1kZvi7LF3HUv4mir1jfQc_JQgdunEwyBW1RUf4Di0PavwHFyScIP8EZUe_WZQ/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51466697/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Css%2Cssa%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgKcIx-CM4YXDdT5attWOCddl0tHoHDiziVfyf4uBaFtICID1z59ddnKfId1QVRYcSFH3rE3DZm02dSjHWqZfBfQpZ/file/index.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/pO4rzt2.jpg" tvg-id="", NDTV India
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/UTkH9uA.jpg" tvg-id="", ABP NEWS
-https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1748133029/ei/RBAyaK-nNtft2_gPv4ir8Ag/ip/172.214.175.255/id/-i7a9gB0-t0.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51437495/txs/51437492%2C51437493%2C51437494%2C51437495/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/ss/1/ssa/1/bui/AecWEAZtWnHgwVh1gIXCKeHTrY02XTf20mqnQVYkw9yNrOHblf4EnPKUHfEvUr4Y1lj0P8qDWvJcxgvK/spc/wk1kZvdEHo3gkctc9g4gMjTYihitZVpEefAwAN5F2yq-o7GuQH2uJyFWVKwyUaS1YwE/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51466697/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Css%2Cssa%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhANWPoJLbR-E2fIW2bmaezk8RON37FnCtSeJweW3FK-ZPAiEA7f3oCKWYhzQUxlRRaItdLXDGtyeuo3_NtuDEN0GDKo4%3D/file/index.m3u8
 
 #EXTINF:-1 group-title="Hindi" tvg-logo="https://i.imgur.com/q5HR6p1.png" tvg-id="", Zee News
 https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
