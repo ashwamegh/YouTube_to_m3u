@@ -50,7 +50,9 @@ def main():
     global s
     s = requests.Session()
     
-    with open('../youtube_channel_info.txt') as f:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    info_file_path = os.path.join(script_dir, '..', 'youtube_channel_info.txt')
+    with open(info_file_path) as f:
         with open('../youtube.m3u', 'w') as output_file:
             print('#EXTM3U x-tvg-url="https://github.com/botallen/epg/releases/download/latest/epg.xml.gz"', file=output_file)
             
