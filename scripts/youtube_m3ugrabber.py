@@ -6,25 +6,35 @@ import subprocess
 
 def get_stream_url(youtube_url):
     """
-    Uses yt-dlp to get the HLS stream URL. Returns None on failure.
+    Get the HLS stream URL using yt-dlp with Deno runtime.
+    Simplified to use default yt-dlp behavior which works with Deno installed.
     """
     try:
         result = subprocess.run(
             ['yt-dlp', '-g', '--no-warnings', youtube_url],
             capture_output=True,
             text=True,
-            check=True,
-            timeout=30
+            timeout=45
         )
-        for url in result.stdout.strip().split('\n'):
-            if url.endswith('.m3u8'):
-                return url
-        # If loop finishes, no .m3u8 stream was found
-        print(f"Warning: No .m3u8 stream found for {youtube_url}", file=sys.stderr)
+        
+        if result.returncode == 0:
+            for url in result.stdout.strip().split('\n'):
+                if '.m3u8' in url or url.startswith('http'):
+                    return url
+        
+        # Log errors for debugging (many channels may not be live)
+        if result.stderr:
+            error_msg = result.stderr.strip()
+            # Only log if it's not a "not live" error
+            if 'not a live stream' not in error_msg.lower() and 'private video' not in error_msg.lower():
+                print(f"yt-dlp error for {youtube_url}: {error_msg[:200]}", file=sys.stderr)
+            
         return None
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-        # yt-dlp returns non-zero for non-live videos, which is expected.
-        print(f"Info: Could not get stream for {youtube_url}. It might not be live.", file=sys.stderr)
+    except subprocess.TimeoutExpired:
+        print(f"Timeout extracting {youtube_url}", file=sys.stderr)
+        return None
+    except Exception as e:
+        print(f"Failed to extract stream URL for {youtube_url}: {e}", file=sys.stderr)
         return None
 
 def main():
