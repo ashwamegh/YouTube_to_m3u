@@ -6,87 +6,36 @@ import subprocess
 
 def get_stream_url(youtube_url):
     """
-    Get the HLS stream URL for a YouTube live stream with authentication support.
-    Uses multiple strategies to bypass YouTube bot detection.
+    Get the HLS stream URL using yt-dlp with Deno runtime.
+    Simplified to use default yt-dlp behavior which works with Deno installed.
     """
-    # Strategy 1: Try with Android player client (bypasses most bot checks)
     try:
         result = subprocess.run(
-            [
-                'yt-dlp',
-                '--no-warnings',
-                '--geo-bypass',
-                '--extractor-args', 'youtube:player_client=android',
-                '-g',
-                youtube_url
-            ],
+            ['yt-dlp', '-g', '--no-warnings', youtube_url],
             capture_output=True,
             text=True,
-            timeout=30
+            timeout=45
         )
         
         if result.returncode == 0:
             for url in result.stdout.strip().split('\n'):
-                if '.m3u8' in url:
+                if '.m3u8' in url or url.startswith('http'):
                     return url
-    except subprocess.TimeoutExpired:
-        print(f"Timeout with Android client for {youtube_url}", file=sys.stderr)
-    except Exception as e:
-        print(f"Android client method failed for {youtube_url}: {e}", file=sys.stderr)
-    
-    # Strategy 2: Try with web player client
-    try:
-        result = subprocess.run(
-            [
-                'yt-dlp',
-                '--no-warnings',
-                '--geo-bypass',
-                '--extractor-args', 'youtube:player_client=web',
-                '-g',
-                youtube_url
-            ],
-            capture_output=True,
-            text=True,
-            timeout=30
-        )
         
-        if result.returncode == 0:
-            for url in result.stdout.strip().split('\n'):
-                if '.m3u8' in url:
-                    return url
+        # Log errors for debugging (many channels may not be live)
+        if result.stderr:
+            error_msg = result.stderr.strip()
+            # Only log if it's not a "not live" error
+            if 'not a live stream' not in error_msg.lower() and 'private video' not in error_msg.lower():
+                print(f"yt-dlp error for {youtube_url}: {error_msg[:200]}", file=sys.stderr)
+            
+        return None
     except subprocess.TimeoutExpired:
-        print(f"Timeout with web client for {youtube_url}", file=sys.stderr)
+        print(f"Timeout extracting {youtube_url}", file=sys.stderr)
+        return None
     except Exception as e:
-        print(f"Web client method failed for {youtube_url}: {e}", file=sys.stderr)
-    
-    # Strategy 3: Try with iOS player client as last resort
-    try:
-        result = subprocess.run(
-            [
-                'yt-dlp',
-                '--no-warnings',
-                '--geo-bypass',
-                '--extractor-args', 'youtube:player_client=ios',
-                '-g',
-                youtube_url
-            ],
-            capture_output=True,
-            text=True,
-            timeout=30
-        )
-        
-        if result.returncode == 0:
-            for url in result.stdout.strip().split('\n'):
-                if '.m3u8' in url:
-                    return url
-    except subprocess.TimeoutExpired:
-        print(f"Timeout with iOS client for {youtube_url}", file=sys.stderr)
-    except Exception as e:
-        print(f"iOS client method failed for {youtube_url}: {e}", file=sys.stderr)
-    
-    # If all strategies fail, log and return None
-    print(f"Failed to extract stream URL for: {youtube_url}", file=sys.stderr)
-    return None
+        print(f"Failed to extract stream URL for {youtube_url}: {e}", file=sys.stderr)
+        return None
 
 def main():
     info_file_path = '../youtube_channel_info.txt'
