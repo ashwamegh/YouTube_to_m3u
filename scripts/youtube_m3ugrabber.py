@@ -6,26 +6,87 @@ import subprocess
 
 def get_stream_url(youtube_url):
     """
-    Uses yt-dlp to get the HLS stream URL. Returns None on failure.
+    Get the HLS stream URL for a YouTube live stream with authentication support.
+    Uses multiple strategies to bypass YouTube bot detection.
     """
+    # Strategy 1: Try with Android player client (bypasses most bot checks)
     try:
         result = subprocess.run(
-            ['yt-dlp', '-g', '--no-warnings', youtube_url],
+            [
+                'yt-dlp',
+                '--no-warnings',
+                '--geo-bypass',
+                '--extractor-args', 'youtube:player_client=android',
+                '-g',
+                youtube_url
+            ],
             capture_output=True,
             text=True,
-            check=True,
             timeout=30
         )
-        for url in result.stdout.strip().split('\n'):
-            if url.endswith('.m3u8'):
-                return url
-        # If loop finishes, no .m3u8 stream was found
-        print(f"Warning: No .m3u8 stream found for {youtube_url}", file=sys.stderr)
-        return None
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired) as e:
-        # yt-dlp returns non-zero for non-live videos, which is expected.
-        print(f"Info: Could not get stream for {youtube_url}. It might not be live.", file=sys.stderr)
-        return None
+        
+        if result.returncode == 0:
+            for url in result.stdout.strip().split('\n'):
+                if '.m3u8' in url:
+                    return url
+    except subprocess.TimeoutExpired:
+        print(f"Timeout with Android client for {youtube_url}", file=sys.stderr)
+    except Exception as e:
+        print(f"Android client method failed for {youtube_url}: {e}", file=sys.stderr)
+    
+    # Strategy 2: Try with web player client
+    try:
+        result = subprocess.run(
+            [
+                'yt-dlp',
+                '--no-warnings',
+                '--geo-bypass',
+                '--extractor-args', 'youtube:player_client=web',
+                '-g',
+                youtube_url
+            ],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        
+        if result.returncode == 0:
+            for url in result.stdout.strip().split('\n'):
+                if '.m3u8' in url:
+                    return url
+    except subprocess.TimeoutExpired:
+        print(f"Timeout with web client for {youtube_url}", file=sys.stderr)
+    except Exception as e:
+        print(f"Web client method failed for {youtube_url}: {e}", file=sys.stderr)
+    
+    # Strategy 3: Try with iOS player client as last resort
+    try:
+        result = subprocess.run(
+            [
+                'yt-dlp',
+                '--no-warnings',
+                '--geo-bypass',
+                '--extractor-args', 'youtube:player_client=ios',
+                '-g',
+                youtube_url
+            ],
+            capture_output=True,
+            text=True,
+            timeout=30
+        )
+        
+        if result.returncode == 0:
+            for url in result.stdout.strip().split('\n'):
+                if '.m3u8' in url:
+                    return url
+    except subprocess.TimeoutExpired:
+        print(f"Timeout with iOS client for {youtube_url}", file=sys.stderr)
+    except Exception as e:
+        print(f"iOS client method failed for {youtube_url}: {e}", file=sys.stderr)
+    
+    # If all strategies fail, log and return None
+    print(f"Failed to extract stream URL for: {youtube_url}", file=sys.stderr)
+    return None
 
 def main():
     info_file_path = '../youtube_channel_info.txt'

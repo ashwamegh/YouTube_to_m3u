@@ -6,10 +6,14 @@ set -e
 # Install dependencies
 echo "Installing dependencies..."
 python3 -m pip install --upgrade pip
-python3 -m pip install requests yt-dlp
+python3 -m pip install --upgrade requests yt-dlp
 
 # Add Python user bin directory to PATH to ensure yt-dlp is found
 export PATH="$(python3 -m site --user-base)/bin:$PATH"
+
+# Update yt-dlp to nightly for latest YouTube compatibility fixes
+echo "Updating yt-dlp to nightly..."
+yt-dlp --update-to nightly || echo "Warning: Could not update to nightly, using installed version"
 
 # Navigate to the script directory
 cd "$(dirname "$0")/scripts"
