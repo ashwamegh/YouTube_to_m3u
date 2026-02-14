@@ -2,12 +2,11 @@ name: M3U generator
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Run once daily at midnight UTC (test branch)
+    - cron: "0 0 * * *"  # Run once daily at midnight UTC (main branch)
   
   pull_request:
     branches:
       - main
-      - test
   
   workflow_dispatch:
 
